@@ -21,7 +21,7 @@ body {
     color: #000;
   }
   
-  /* header */
+  
   
   .header {
     background-color: #ff8800;
@@ -61,7 +61,7 @@ body {
     text-decoration: none;
   }
   
-  /* menu */
+  
   
   .header .menu {
     clear: both;
@@ -69,12 +69,12 @@ body {
     transition: max-height .2s ease-out;
   }
   
-  /* menu icon */
+  
   
   .header .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: right;
+    
     padding: 28px 20px;
     position: relative;
     user-select: none;
@@ -85,7 +85,7 @@ body {
     display: block;
     height: 2px;
     position: relative;
-    transition: background .2s ease-out;
+    transition:  .2s ease-out;
     width: 18px;
   }
   
@@ -108,7 +108,7 @@ body {
     top: -5px;
   }
   
-  /* menu btn */
+  
   
   .header .menu-btn {
     display: none;
@@ -135,7 +135,7 @@ body {
     top: 0;
   }
   
-  /* 48em = 768px */
+  
   
   @media (min-width: 48em) {
     .header li {
@@ -166,8 +166,8 @@ body {
     position: relative;
     
    
-     /* Juster bredden etter behov */
-    height: 1000px; /* Juster høyden etter behov */
+     
+    height: 1000px; 
     margin-top: 100px;
     text-align: center;
     box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
@@ -186,8 +186,8 @@ body {
     position: relative;
     
    
-     /* Juster bredden etter behov */
-    height: 700px; /* Juster høyden etter behov */
+     
+    height: 700px; 
     margin-top: 5%;
     text-align: center;
     box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
@@ -216,39 +216,44 @@ body {
 
 
 .container {
-    display: grid;
-    grid-template-rows: 1fr auto; /* Deler siden i to rader, hvor den siste er auto for footer-elementet */
-    min-height: 70vh; /* Sikrer at beholderen er minst like høy som vinduet */
-    
+  display: grid;
+  grid-template-rows: 1fr auto; 
+  min-height: 100vh; 
+  
 }
 
 .innhold {
-    flex: 1; /* Resten av din stil for hovedinnholdet her */
-    
+  flex: 1; 
+  
 }
 
 .test5 {
-    background-color: black;
-    color: white; /* Endre fargen på teksten for synlighet */
-    text-align: center;
-    padding: 10px; /* Juster padding etter behov */
-    /* Eventuell annen stil for footer her */
+  background-color: black;
+  color: white; 
+  text-align: center;
+  padding: 10px; 
+  
 }
+
+.text111 {
+  list-style: none; 
+  padding: 0;
+  display: flex;
+  justify-content: space-around; 
+  text-decoration: none;
+  
+}
+
+
 
 .text1 {
-    list-style: none; /* Fjerner punkter fra listen */
-    padding: 0;
-    display: flex;
-    justify-content: space-around; /* Justerer elementene jevnt langs bredden */
-}
 
-.text1{
-
-    color: white;
-    list-style-type: none;
-    left: 40px;
-    padding: 30px;
-    
+  color: white;
+  list-style-type: none;
+  left: 40px;
+  padding: 30px;
+  
+  text-decoration: none;
 }
 
 
@@ -260,29 +265,29 @@ body {
 
 .container {
     display: grid;
-    grid-template-rows: 1fr auto; /* Deler siden i to rader, hvor den siste er auto for footer-elementet */
-    min-height: 100vh; /* Sikrer at beholderen er minst like høy som vinduet */
+    grid-template-rows: 1fr auto; 
+    min-height: 100vh; 
     
 }
 
 .innhold {
-    flex: 1; /* Resten av din stil for hovedinnholdet her */
+    flex: 1; 
     
 }
 
 .test5 {
     background-color: black;
-    color: white; /* Endre fargen på teksten for synlighet */
+    color: white; 
     text-align: center;
-    padding: 10px; /* Juster padding etter behov */
-    /* Eventuell annen stil for footer her */
+    padding: 10px; 
+    
 }
 
 .text111 {
-    list-style: none; /* Fjerner punkter fra listen */
+    list-style: none; 
     padding: 0;
     display: flex;
-    justify-content: space-around; /* Justerer elementene jevnt langs bredden */
+    justify-content: space-around; 
     text-decoration: none;
     
 }

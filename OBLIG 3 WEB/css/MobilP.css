@@ -23,7 +23,7 @@ a {
     color: #000;
   }
   
-  /* header */
+  
   
   .header {
     background-color: #ff8800;
@@ -63,7 +63,7 @@ a {
     text-decoration: none;
   }
   
-  /* menu */
+  
   
   .header .menu {
     clear: both;
@@ -71,12 +71,12 @@ a {
     transition: max-height .2s ease-out;
   }
   
-  /* menu icon */
+  
   
   .header .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: right;
+    
     padding: 28px 20px;
     position: relative;
     user-select: none;
@@ -87,7 +87,7 @@ a {
     display: block;
     height: 2px;
     position: relative;
-    transition: background .2s ease-out;
+    transition: .2s ease-out;
     width: 18px;
   }
   
@@ -110,7 +110,7 @@ a {
     top: -5px;
   }
   
-  /* menu btn */
+  
   
   .header .menu-btn {
     display: none;
@@ -137,7 +137,7 @@ a {
     top: 0;
   }
   
-  /* 48em = 768px */
+  
   
   @media (min-width: 48em) {
     .header li {
@@ -171,8 +171,8 @@ a {
     width: 100vw;
     
    
-     /* Juster bredden etter behov */
-    height: 650px; /* Juster høyden etter behov */
+     
+    height: 650px; 
     margin-top: 100px;
     text-align: center;
     box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
@@ -190,8 +190,8 @@ a {
     width: 100vw;
     
    
-     /* Juster bredden etter behov */
-    height: 400px; /* Juster høyden etter behov */
+     
+    height: 400px; 
     margin-top: 20px;
     text-align: center;
     box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
