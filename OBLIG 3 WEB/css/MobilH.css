@@ -24,7 +24,7 @@ a {
     color: #000;
   }
   
-  /* header */
+  
   
   .header {
     background-color: #ff8800;
@@ -64,7 +64,7 @@ a {
     text-decoration: none;
   }
   
-  /* menu */
+  
   
   .header .menu {
     clear: both;
@@ -72,12 +72,12 @@ a {
     transition: max-height .2s ease-out;
   }
   
-  /* menu icon */
+  
   
   .header .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: right;
+    
     padding: 28px 20px;
     position: relative;
     user-select: none;
@@ -111,7 +111,7 @@ a {
     top: -5px;
   }
   
-  /* menu btn */
+  
   
   .header .menu-btn {
     display: none;
@@ -138,7 +138,7 @@ a {
     top: 0;
   }
   
-  /* 48em = 768px */
+  
   
   @media (min-width: 48em) {
     .header li {
@@ -180,8 +180,8 @@ a {
     background-color: #ffa640;
     width: 100vw;
    
-     /* Juster bredden etter behov */
-    height: 250px; /* Juster høyden etter behov */
+     
+    height: 250px; 
     margin-top: 100px;
     text-align: center;
     box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
@@ -231,8 +231,7 @@ a {
     background-color: #ffa640;
     width: 100vw;
    
-     /* Juster bredden etter behov */
-    height: 250px; /* Juster høyden etter behov */
+    height: 250px; 
     margin-top: 50px;
     text-align: center;
     
@@ -357,8 +356,8 @@ a {
     background-color: #ffa640;
     width: 100vw;
    
-     /* Juster bredden etter behov */
-    height: 250px; /* Juster høyden etter behov */
+     
+    height: 250px; 
     margin-top: 80px;
     text-align: center;
     
@@ -405,29 +404,29 @@ a {
 
 .container {
     display: grid;
-    grid-template-rows: 1fr auto; /* Deler siden i to rader, hvor den siste er auto for footer-elementet */
-    min-height: 100vh; /* Sikrer at beholderen er minst like høy som vinduet */
+    grid-template-rows: 1fr auto; 
+    min-height: 100vh; 
     
 }
 
 .innhold {
-    flex: 1; /* Resten av din stil for hovedinnholdet her */
+    flex: 1; 
     
 }
 
 .test5 {
     background-color: black;
-    color: white; /* Endre fargen på teksten for synlighet */
+    color: white; 
     text-align: center;
-    padding: 10px; /* Juster padding etter behov */
-    /* Eventuell annen stil for footer her */
+    padding: 10px; 
+    
 }
 
 .text111 {
-    list-style: none; /* Fjerner punkter fra listen */
+    list-style: none; 
     padding: 0;
     display: flex;
-    justify-content: space-around; /* Justerer elementene jevnt langs bredden */
+    justify-content: space-around; 
     text-decoration: none;
     
 }
@@ -487,8 +486,7 @@ a {
     
     
    
-     /* Juster bredden etter behov */
-    height: 250px; /* Juster høyden etter behov */
+    height: 250px; 
     margin-top: 120px;
     text-align: left;
     font-size: 30px;
