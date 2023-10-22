@@ -1,0 +1,530 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Patua One', serif;
+    font-family: 'Righteous', sans-serif;
+}
+body {
+    background-color: #ec8713;
+    font-family: "Poppins", sans-serif;
+    --color1: #FFF ;
+    --color2: #000000 ;
+    height:100vw;
+    margin: 0;
+    overflow-x: hidden;
+   
+    
+    
+}
+
+
+
+
+  
+a {
+    color: #000;
+  }
+  
+  /* header */
+  
+  .header {
+    background-color: #ff8800;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+  
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* menu */
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rectangel {
+    background-color: #ffa640;
+    width: 100vw;
+   
+     /* Juster bredden etter behov */
+    height: 250px; /* Juster høyden etter behov */
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 5%;
+    
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+  
+  
+}
+
+.rectangel img{
+
+    width: 300px;
+    height: 300px;
+    transform:  rotate(10deg);
+    
+    
+    
+    
+}
+
+@media (max-width: 320px) {
+        .rectangel img{
+            margin-top: -50px;
+        }
+}
+
+@media (max-width: 375px) {
+    .rectangel img{
+        margin-top: -50px;
+        
+    }
+}
+
+
+@media (max-width: 425px) {
+    .rectangel img{
+        margin-top: -50px;
+        
+    }
+}
+
+
+.rectangel2 {
+    background-color: #ffa640;
+    width: 100vw;
+   
+     /* Juster bredden etter behov */
+    height: 250px; /* Juster høyden etter behov */
+    margin-top: 50px;
+    text-align: center;
+    
+
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 5%;
+   
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+}
+
+
+
+
+
+
+
+
+.rectangel{
+
+    margin-left: -4px;
+}
+.rectangel2{
+
+    margin-left: 4px;
+    
+}
+
+.knapp1{
+
+    position: relative;
+    top: -40px;
+    width: 40px;
+    height: 20px;
+    background-color: #da8320 ;
+    border-color: #000000;  
+    border-width: 1px 3px 3px 1px;
+    font-size: 12px;
+    font-weight: bold;
+    left:5px;
+    
+
+    
+   
+    }
+
+
+
+
+.rectangel2 img{
+
+    width: 300px;
+    height: 300px;
+    transform:  rotate(10deg);
+    
+    
+    
+    
+}
+
+@media (max-width: 320px) {
+        .rectangel2 img{
+            margin-top: 10px;
+        }
+}
+
+@media (max-width: 375px) {
+    .rectangel2 img{
+        margin-top: -50px;
+        
+    }
+}
+
+
+@media (max-width: 425px) {
+    .rectangel2 img{
+        margin-top: -50px;
+        
+    }
+}
+
+@media (min-width:768px)   {
+    .rectangel img {
+
+        margin-top: -50px;
+
+    }
+
+}
+
+@media (min-width:768px)   {
+    .rectangel2 img {
+
+        margin-top: -50px;
+
+    }
+
+}
+@media (min-width:768px)   {
+    .rectangel3 img {
+
+        margin-top: -50px;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.rectangel3 {
+    position: relative;
+    background-color: #ffa640;
+    width: 100vw;
+   
+     /* Juster bredden etter behov */
+    height: 250px; /* Juster høyden etter behov */
+    margin-top: 80px;
+    text-align: center;
+    
+
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 5%;
+   
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+}
+
+.rectangel3 img{
+
+    width: 300px;
+    height: 300px;
+    transform:  rotate(10deg);
+    
+    
+    
+    
+}
+
+@media (max-width: 320px) {
+        .rectangel3 img{
+            margin-top: 10px;
+        }
+}
+
+@media (max-width: 375px) {
+    .rectangel3 img{
+        margin-top: -50px;
+        
+    }
+}
+
+
+@media (max-width: 425px) {
+    .rectangel3 img{
+        margin-top: -50px;
+        
+    }
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr auto; /* Deler siden i to rader, hvor den siste er auto for footer-elementet */
+    min-height: 100vh; /* Sikrer at beholderen er minst like høy som vinduet */
+    
+}
+
+.innhold {
+    flex: 1; /* Resten av din stil for hovedinnholdet her */
+    
+}
+
+.test5 {
+    background-color: black;
+    color: white; /* Endre fargen på teksten for synlighet */
+    text-align: center;
+    padding: 10px; /* Juster padding etter behov */
+    /* Eventuell annen stil for footer her */
+}
+
+.text111 {
+    list-style: none; /* Fjerner punkter fra listen */
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Justerer elementene jevnt langs bredden */
+    text-decoration: none;
+    
+}
+
+
+
+.text1 {
+
+    color: white;
+    list-style-type: none;
+    left: 40px;
+    padding: 30px;
+    
+    text-decoration: none;
+}
+
+.text1 li a{
+
+    color: white;
+    text-decoration: none;
+}
+
+
+.knapp1 a{
+
+    text-decoration: none;
+
+}
+
+
+@media (max-width: 320px) {
+    .nav-bar{
+
+        width: 345px;
+
+
+    }
+
+    
+}
+
+@media (max-width: 320px) {
+    .test5{
+
+        width: 340px;
+
+    }
+}
+
+
+
+
+.rectangel4 {
+    position: relative;
+    background-color: #ffa640;
+    width: 100vw;
+    
+    
+   
+     /* Juster bredden etter behov */
+    height: 250px; /* Juster høyden etter behov */
+    margin-top: 120px;
+    text-align: left;
+    font-size: 30px;
+    
+
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 1%;
+   
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+}
+
+
+@media (max-width:1023px){
+    .rectangel4{
+        opacity: 0%;
+        
+    }
+}
+
+
+
+.rectangel4 button{
+    background-color: rgba(207, 35, 35, 0.384) ;
+    
+    border-width: 1px;
+    height: 50px;
+    width: 220px;
+    margin-left:20px;
+    margin-top: -40px;
+    display: grid;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+

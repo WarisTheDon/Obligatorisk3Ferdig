@@ -1,0 +1,496 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Patua One', serif;
+    font-size: large;
+    
+}
+body {
+    background-color: #ec8713;
+    font-family: "Poppins", sans-serif;
+    --color1: #FFF ;
+    --color2: #181818 ;
+    
+}
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-color: var(--color2);
+    padding: 12px 20px;
+    height: 80px;
+}
+.logo img {width: 80px;}
+.menu {display: flex;}
+.menu li {padding-left: 30px;}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color1);
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+}
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--color1);
+    transition: 0.15s ease-in-out;
+}
+.menu li a:hover:after {width: 100%;}
+.open-menu , .close-menu {
+    position: absolute;
+    color: var(--color1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+#check {display: none;}
+@media(max-width: 610px){
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--color2);
+        transition: all 0.2s ease-in-out;
+    }
+    .menu li {margin-top: 40px;}
+    .menu li a {padding: 10px;}
+    .open-menu , .close-menu {display: block;}
+    #check:checked ~ .menu {right: 0;}
+}
+
+
+.rectangel {
+    background-color: #ffa640;
+    width: 100vw;
+    
+   
+     /* Juster bredden etter behov */
+    height: 650px; /* Juster høyden etter behov */
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 5%;
+    
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+  
+  
+}
+
+.rectange2 {
+    background-color: #ffa640;
+    width: 100vw;
+    
+   
+     /* Juster bredden etter behov */
+    height: 400px; /* Juster høyden etter behov */
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 5%;
+    
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+  
+  
+}
+
+.text6{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 10px;
+   top: 790px;
+
+
+}
+
+
+.rectangel img{
+
+    width: 300px;
+    height: 300px;
+    rotate: 10deg;
+    
+    
+    
+    
+}
+
+@media (max-width: 320px) {
+        .rectangel img{
+            margin-top: -50px;
+        }
+}
+
+@media (max-width: 375px) {
+    .rectangel img{
+        margin-top: -50px;
+        
+    }
+}
+
+
+@media (max-width: 425px) {
+    .rectangel img{
+        margin-top: -50px;
+        
+    }
+}
+
+
+.text1{
+
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 10px;
+    top: 300px;
+
+}
+
+.text2{
+
+    color: rgb(107, 104, 104);
+    position: absolute;
+    left: 10px;
+    top: 320px;
+    opacity: 50%;
+
+}
+
+.pris{
+    color: #000000;
+    top: 347px;
+    position: absolute;
+    font-size:15px;
+    left: 10px;
+    opacity: 60%;
+
+}
+
+.pris2{
+    color: #ff0000;
+    top: 345px;
+    position: absolute;
+    font-size:20px;
+    left: 50px;
+
+}
+
+.stjerner{
+
+
+    top: 370px;
+    position: absolute;
+    font-size:15px;
+    left: 10px;
+
+}
+
+.stjerner1{
+
+    top: 370px;
+    position: absolute;
+    font-size:15px;
+    left: 76px;
+    opacity: 40%;
+
+}
+
+
+.circle1 {
+    left: 76px;
+    top: 420px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ff8800;
+    border-radius: 50%; /* Dette gir sirkelform */
+    margin: 10px; /* Avstand mellom sirkler */
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    
+    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+   
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+    
+    
+}
+
+
+
+.circle2 {
+    left: 140px;
+    top: 420px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ff8800;
+    border-radius: 50%; /* Dette gir sirkelform */
+    margin: 10px; /* Avstand mellom sirkler */
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    opacity: 50%;
+    border-color: #000000;
+    border-style:outset;
+    border-width: 1px;
+    
+}
+
+.circle3 {
+    left: 210px;
+    top: 420px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ff8800;
+    border-radius: 50%; /* Dette gir sirkelform */
+    margin: 10px; /* Avstand mellom sirkler */
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    opacity: 50%;
+    border-color: #000000;
+    border-style:outset;
+    border-width: 1px;
+}
+
+
+.text3{
+
+    color: rgb(107, 104, 104);
+    position: absolute;
+    left: 10px;
+    top: 410px;
+    opacity: 50%;
+
+}
+
+
+
+.Knapp1{
+
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 70px;
+    top: 600px;
+    width: 200px;
+    height: 60px;
+    background: orange;
+   padding: 20px;
+   color: #FFF;
+   text-decoration: none;
+   border-radius: 5px;
+   cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+.Knapp1:hover, .Knapp1:focus, .Knapp1:active{
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+.circle1:hover, .circle1:focus, .circle1:active{
+
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+.Rectangel10{
+    position: absolute;
+    background-color: #eff7ee;
+    width: 240px;
+    
+   
+     /* Juster bredden etter behov */
+    height: 360px; /* Juster høyden etter behov */
+    margin-top: 20px;
+    left: 10px;
+    box-shadow:10px 10px 20px rgba(0, 0, 0, 0.212),  -10px -10px 20px rgba(0, 0, 0, 0.253);
+    outline: 1px solid black;       
+
+}
+
+
+
+
+@media (min-width:70px) {
+    .Rectangel10{
+
+        width: 95vw;
+    }
+}
+
+
+.Rectangel10 li{
+    display: flex;
+    flex-direction: row;
+   padding-top: 30px;
+
+ 
+
+}
+
+
+
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr auto; /* Deler siden i to rader, hvor den siste er auto for footer-elementet */
+    min-height: 100vh; /* Sikrer at beholderen er minst like høy som vinduet */
+  
+}
+
+.innhold {
+    flex: 1; /* Resten av din stil for hovedinnholdet her */
+   
+}
+
+
+.test5 {
+    background-color: black;
+    color: white; /* Endre fargen på teksten for synlighet */
+    text-align: center;
+    padding: 10px; /* Juster padding etter behov */
+    /* Eventuell annen stil for footer her */
+}
+
+.text1 {
+    list-style: none; /* Fjerner punkter fra listen */
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Justerer elementene jevnt langs bredden */
+}
+
+.text1{
+
+    color: white;
+    list-style-type: none;
+    left: 40px;
+    padding: 30px;
+    padding-left: -30px;
+}
+
+
+
+.text22{
+
+    text-align: left;
+
+}
+
+
+
+
+@media (max-width:320px) {
+
+    .nav-bar{
+
+        width: 333px;
+
+    }
+    
+}
+
+
+
+
+.rectange3 {
+    position: relative;
+    background-color: #ffa640;
+    width: 100vw;
+   
+     /* Juster bredden etter behov */
+    height: 250px; /* Juster høyden etter behov */
+    margin-top: 120px;
+    text-align: left;
+    font-size: 30px;
+    
+
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 1%;
+   
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+}
+
+@media (max-width:1023px){
+    .rectange3{
+        opacity: 0%;
+        
+    }
+}
+
+
+.rectange3 img{
+
+    width: 250px;
+    height: 220px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+@media (max-width:1134px){
+    .test69{
+
+            opacity: 0%;
+    }
+
+}
+
+@media (max-width:1417px){
+    .test70{
+
+            opacity: 0%;
+    }
+
+}
+
+.text111 li a{
+    color: white;
+    text-decoration: none;
+    
+
+}

@@ -1,0 +1,441 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Patua One', serif;
+    font-family: 'Righteous', sans-serif;
+}
+body {
+    background-color: #ec8713;
+    font-family: "Poppins", sans-serif;
+    --color1: #FFF ;
+    --color2: #000000 ;
+    height:100vw;
+    margin: 0;
+    overflow-x: hidden;
+   
+    
+    
+}
+.nav-bar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-color: var(--color2);
+    padding: 12px 20px;
+    margin-top: -10px;
+    margin-left: -5px;
+}
+.logo img {width: 80px;}
+.menu {display: flex;}
+.menu li {padding-left: 30px;}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color1);
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+}
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--color1);
+    transition: 0.15s ease-in-out;
+}
+.menu li a:hover:after {width: 100%;}
+.open-menu , .close-menu {
+    position: absolute;
+    color: var(--color1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+#check {display: none;}
+@media(max-width: 610px){
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--color2);
+        transition: all 0.2s ease-in-out;
+    }
+    .menu li {margin-top: 40px;}
+    .menu li a {padding: 10px;}
+    .open-menu , .close-menu {display: block;}
+    #check:checked ~ .menu {right: 0;}
+}
+
+.rectangel {
+    background-color: #ffa640;
+    width: 100vw;
+   
+     /* Juster bredden etter behov */
+    height: 250px; /* Juster høyden etter behov */
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 5%;
+    
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+  
+  
+}
+
+.rectangel img{
+
+    width: 300px;
+    height: 300px;
+    rotate: 10deg;
+    box-shadow: black;
+    
+    
+    
+}
+
+@media (max-width: 320px) {
+        .rectangel img{
+            margin-top: -50px;
+        }
+}
+
+@media (max-width: 375px) {
+    .rectangel img{
+        margin-top: -50px;
+        
+    }
+}
+
+
+@media (max-width: 425px) {
+    .rectangel img{
+        margin-top: -50px;
+        
+    }
+}
+
+
+.rectangel2 {
+    background-color: #ffa640;
+    width: 100vw;
+   
+     /* Juster bredden etter behov */
+    height: 250px; /* Juster høyden etter behov */
+    margin-top: 50px;
+    text-align: center;
+    
+
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 5%;
+   
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+}
+
+
+
+
+
+
+
+
+.rectangel{
+
+    margin-left: -4px;
+}
+.rectangel2{
+
+    margin-left: 4px;
+    
+}
+
+.knapp1{
+
+    position: relative;
+    top: -40px;
+    width: 40px;
+    height: 20px;
+    background-color: #da8320 ;
+    border-color: #000000;  
+    border-width: 1px 3px 3px 1px;
+    font-size: 12px;
+    font-weight: bold;
+    left:5px;
+    
+
+    
+   
+    }
+
+
+
+
+.rectangel2 img{
+
+    width: 300px;
+    height: 300px;
+    rotate: 10deg;
+    box-shadow: black;
+    
+    
+    
+}
+
+@media (max-width: 320px) {
+        .rectangel2 img{
+            margin-top: 10px;
+        }
+}
+
+@media (max-width: 375px) {
+    .rectangel2 img{
+        margin-top: -50px;
+        
+    }
+}
+
+
+@media (max-width: 425px) {
+    .rectangel2 img{
+        margin-top: -50px;
+        
+    }
+}
+
+@media (min-width:768px)   {
+    .rectangel img {
+
+        margin-top: -50px;
+
+    }
+
+}
+
+@media (min-width:768px)   {
+    .rectangel2 img {
+
+        margin-top: -50px;
+
+    }
+
+}
+@media (min-width:768px)   {
+    .rectangel3 img {
+
+        margin-top: -50px;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.rectangel3 {
+    position: relative;
+    background-color: #ffa640;
+    width: 100vw;
+   
+     /* Juster bredden etter behov */
+    height: 250px; /* Juster høyden etter behov */
+    margin-top: 80px;
+    text-align: center;
+    
+
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 5%;
+   
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+}
+
+.rectangel3 img{
+
+    width: 300px;
+    height: 300px;
+    rotate: 10deg;
+    box-shadow: black;
+    
+    
+    
+}
+
+@media (max-width: 320px) {
+        .rectangel3 img{
+            margin-top: 10px;
+        }
+}
+
+@media (max-width: 375px) {
+    .rectangel3 img{
+        margin-top: -50px;
+        
+    }
+}
+
+
+@media (max-width: 425px) {
+    .rectangel3 img{
+        margin-top: -50px;
+        
+    }
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr auto; /* Deler siden i to rader, hvor den siste er auto for footer-elementet */
+    min-height: 100vh; /* Sikrer at beholderen er minst like høy som vinduet */
+    
+}
+
+.innhold {
+    flex: 1; /* Resten av din stil for hovedinnholdet her */
+    
+}
+
+.test5 {
+    background-color: black;
+    color: white; /* Endre fargen på teksten for synlighet */
+    text-align: center;
+    padding: 10px; /* Juster padding etter behov */
+    /* Eventuell annen stil for footer her */
+}
+
+.text111 {
+    list-style: none; /* Fjerner punkter fra listen */
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Justerer elementene jevnt langs bredden */
+    text-decoration: none;
+    
+}
+
+
+
+.text1 {
+
+    color: white;
+    list-style-type: none;
+    left: 40px;
+    padding: 30px;
+    padding-left: -30px;
+    text-decoration: none;
+}
+
+.text1 li a{
+
+    color: white;
+    text-decoration: none;
+}
+
+
+.knapp1 a{
+
+    text-decoration: none;
+
+}
+
+
+@media (max-width: 320px) {
+    .nav-bar{
+
+        width: 345px;
+
+
+    }
+
+    
+}
+
+@media (max-width: 320px) {
+    .test5{
+
+        width: 340px;
+
+    }
+}
+
+
+
+
+.rectangel4 {
+    position: relative;
+    background-color: #ffa640;
+    width: 100vw;
+    
+    
+   
+     /* Juster bredden etter behov */
+    height: 250px; /* Juster høyden etter behov */
+    margin-top: 120px;
+    text-align: left;
+    font-size: 30px;
+    
+
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 1%;
+   
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+}
+
+
+@media (max-width:1023px){
+    .rectangel4{
+        opacity: 0%;
+        
+    }
+}
+
+
+
+.rectangel4 button{
+    background-color: rgba(207, 35, 35, 0.384) ;
+    
+    border-width: 1px;
+    height: 50px;
+    width: 220px;
+    margin-left:20px;
+    margin-top: -40px;
+    display: grid;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+
