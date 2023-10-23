@@ -168,7 +168,7 @@ a {
     margin-top: 10%;
    text-align: center;
     justify-content: center;
-    box-shadow: 10px 10px 10px 10px solid black;
+    
     
   }
   
@@ -202,9 +202,9 @@ a {
   .sirkel:hover, .sirkel:focus, .sirkel:active{
 
     box-shadow: 10px 10px 10px 10px rgb(252, 114, 1);
-    border-width: 10px 10px 10px 10px red ;
     
-    border-color: yellow;
+    
+    
     
 }
 
@@ -216,7 +216,7 @@ a {
     margin-top: 10%;
    text-align: center;
     justify-content: center;
-    box-shadow: 10px 10px 10px 10px solid black;
+    box-shadow: 10px 10px 10px 10px  rgba(0, 0, 0, 0);
     width: 100vw;
     
     
