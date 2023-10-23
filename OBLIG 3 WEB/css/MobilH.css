@@ -196,9 +196,19 @@ a {
         opacity: 0%;
     }
 
-
-
   }
+
+
+  .sirkel:hover, .sirkel:focus, .sirkel:active{
+
+    box-shadow: 10px 10px 10px 10px rgb(252, 114, 1);
+    border-width: 10px 10px 10px 10px red ;
+    
+    border-color: yellow;
+    
+}
+
+
 
 
   .SkoModeller {
@@ -301,6 +311,34 @@ a {
         margin-top: -50px;
         
     }
+}
+
+
+@media (min-width:426px) and (max-width:767px) {
+
+    .rectangel img{
+
+        margin-top: -40px;
+    }
+
+}
+
+@media (min-width:426px) and (max-width:767px) {
+
+    .rectangel2 img{
+
+        margin-top: -40px;
+    }
+
+}
+
+@media (min-width:426px) and (max-width:767px) {
+
+    .rectangel3 img{
+
+        margin-top: -40px;
+    }
+
 }
 
 
