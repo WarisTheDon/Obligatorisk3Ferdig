@@ -548,7 +548,7 @@ a {
 
 
 
-.text1 {
+.text17 {
 
     color: white;
     list-style-type: none;
@@ -558,7 +558,7 @@ a {
     text-decoration: none;
 }
 
-.text1 li a{
+.text17 li a{
 
     color: white;
     text-decoration: none;
@@ -640,4 +640,600 @@ a {
 
 
 
+
+
+
+.rectangel100 {
+    background-color: #ffa640;
+    width: 100vw;
+    position: relative;
+    
+   
+     
+    height: 1000px; 
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 5%;
+    
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+  
+  
+}
+
+.rectange21 {
+    background-color: #ffa640;
+    width: 100vw;
+    position: relative;
+    
+   
+     
+    height: 700px; 
+    margin-top: 5%;
+    text-align: center;
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 2%;
+    
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+  
+  
+}
+
+@media (max-width:1023px){
+
+   .rectange21{
+        opacity: 0%;
+    }
+}
+
+.rectange21 input{
+    width: 100vw;
+    height:500px;
+    box-shadow: 10px 10px 1px 0px  black;
+    border-color: rgba(0, 0, 0, 0.438);
+}
+
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr auto; 
+  min-height: 100vh; 
+  
+}
+
+.innhold {
+  flex: 1; 
+  
+}
+
+.test5 {
+  background-color: black;
+  color: white; 
+  text-align: center;
+  padding: 10px; 
+  
+}
+
+.text17 {
+  list-style: none; 
+  padding: 0;
+  display: flex;
+  justify-content: space-around; 
+  text-decoration: none;
+  color: #f4f4f4;
+  
+}
+
+
+
+.text17 {
+
+  color: white;
+  list-style-type: none;
+  left: 40px;
+  padding: 30px;
+  
+  text-decoration: none;
+}
+
+
+.text22{
+
+    text-align: left;
+
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr auto; 
+    min-height: 100vh; 
+    
+}
+
+.innhold {
+    flex: 1; 
+    
+}
+
+.test5 {
+    background-color: black;
+    color: white; 
+    text-align: center;
+    padding: 10px; 
+    
+}
+
+.text111 {
+    list-style: none; 
+    padding: 0;
+    display: flex;
+    justify-content: space-around; 
+    text-decoration: none;
+    
+}
+
+
+
+.text17 {
+
+    color: white;
+    list-style-type: none;
+    left: 40px;
+    padding: 30px;
+    
+    text-decoration: none;
+}
+
+.text17 li a{
+
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.rectangel99 {
+    background-color: #ffa640;
+    width: 100vw;
+    
+   
+     
+    height: 650px; 
+    margin-top: 100px;
+    text-align: center;
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 5%;
+    
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+  
+  
+}
+
+.rectange2 {
+    background-color: #ffa640;
+    width: 100vw;
+    
+   
+     
+    height: 400px; 
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 5%;
+    
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+  
+  
+}
+
+.text6{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 10px;
+   top: 790px;
+
+
+}
+
+
+.rectangel99 img{
+
+    width: 300px;
+    height: 300px;
+    
+    
+    
+    
+    
+}
+
+@media (min-width:1023px) {
+
+    .rectangel99 img{
+
+        width: 500px;
+        height: 500px;
+        margin-left: 300px;
+    }
+    
+}
+@media (min-width:767px) {
+
+    .rectangel99 img{
+
+        width: 550px;
+        height: 550px;
+        margin-left: 250px;
+    }
+    
+}
+
+@media (max-width: 320px) {
+        .rectangel99 img{
+            margin-top: -50px;
+        }
+}
+
+@media (max-width: 375px) {
+    .rectangel99 img{
+        margin-top: -50px;
+        
+    }
+}
+
+
+@media (max-width: 425px) {
+    .rectangel99 img{
+        margin-top: -50px;
+        
+    }
+}
+
+
+.text1{
+
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 10px;
+    top: 300px;
+
+}
+
+.text2{
+
+    color: rgb(107, 104, 104);
+    position: absolute;
+    left: 10px;
+    top: 320px;
+    opacity: 50%;
+
+}
+
+.pris{
+    color: #000000;
+    top: 347px;
+    position: absolute;
+    font-size:15px;
+    left: 10px;
+    opacity: 60%;
+
+}
+
+.pris2{
+    color: #ff0000;
+    top: 345px;
+    position: absolute;
+    font-size:20px;
+    left: 50px;
+
+}
+
+.stjerner{
+
+
+    top: 370px;
+    position: absolute;
+    font-size:15px;
+    left: 10px;
+
+}
+
+.stjerner1{
+
+    top: 370px;
+    position: absolute;
+    font-size:15px;
+    left: 76px;
+    opacity: 40%;
+
+}
+
+
+.circle1 {
+    left: 76px;
+    top: 420px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ff8800;
+    border-radius: 50%; /* Dette gir sirkelform */
+    margin: 10px; /* Avstand mellom sirkler */
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    
+    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+   
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+    
+    
+}
+
+
+
+.circle2 {
+    left: 140px;
+    top: 420px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ff8800;
+    border-radius: 50%; /* Dette gir sirkelform */
+    margin: 10px; /* Avstand mellom sirkler */
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    opacity: 50%;
+    border-color: #000000;
+    border-style:outset;
+    border-width: 1px;
+    
+}
+
+.circle3 {
+    left: 210px;
+    top: 420px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ff8800;
+    border-radius: 50%; /* Dette gir sirkelform */
+    margin: 10px; /* Avstand mellom sirkler */
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+    opacity: 50%;
+    border-color: #000000;
+    border-style:outset;
+    border-width: 1px;
+}
+
+
+.text3{
+
+    color: rgb(107, 104, 104);
+    position: absolute;
+    left: 10px;
+    top: 410px;
+    opacity: 50%;
+
+}
+
+
+
+.Knapp12{
+
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 70px;
+    top: 600px;
+    width: 200px;
+    height: 60px;
+    background: orange;
+   padding: 20px;
+   color: #FFF;
+   text-decoration: none;
+   border-radius: 5px;
+   cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+.Knapp1:hover, .Knapp1:focus, .Knapp1:active{
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+.circle1:hover, .circle1:focus, .circle1:active{
+
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+.Rectangel10{
+    position: absolute;
+    background-color: #eff7ee;
+    width: 240px;
+    
+   
+     /* Juster bredden etter behov */
+    height: 360px; /* Juster høyden etter behov */
+    margin-top: 20px;
+    left: 10px;
+    box-shadow:10px 10px 20px rgba(0, 0, 0, 0.212),  -10px -10px 20px rgba(0, 0, 0, 0.253);
+    outline: 1px solid black;       
+
+}
+
+
+
+
+@media (min-width:70px) {
+    .Rectangel10{
+
+        width: 95vw;
+    }
+}
+
+
+.Rectangel10 li{
+    display: flex;
+    flex-direction: row;
+   padding-top: 30px;
+
+ 
+
+}
+
+
+
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr auto; /* Deler siden i to rader, hvor den siste er auto for footer-elementet */
+    min-height: 100vh; /* Sikrer at beholderen er minst like høy som vinduet */
+  
+}
+
+.innhold {
+    flex: 1; /* Resten av din stil for hovedinnholdet her */
+   
+}
+
+
+.test5 {
+    background-color: black;
+    color: white; /* Endre fargen på teksten for synlighet */
+    text-align: center;
+    padding: 10px; /* Juster padding etter behov */
+    
+    margin-top: 820px;
+
+    /* Eventuell annen stil for footer her */
+}
+
+.text1 {
+    list-style: none; /* Fjerner punkter fra listen */
+    
+    display: flex;
+    justify-content: space-around; /* Justerer elementene jevnt langs bredden */
+}
+
+.text1{
+
+    color: white;
+    list-style-type: none;
+    left: 40px;
+    padding: 30px;
+    
+}
+
+
+
+.text22{
+
+    text-align: left;
+
+}
+
+
+
+
+@media (max-width:320px) {
+
+    .nav-bar{
+
+        width: 333px;
+
+    }
+    
+}
+
+
+
+
+.rectange3 {
+    position: relative;
+    background-color: #ffa640;
+    width: 100vw;
+   
+     /* Juster bredden etter behov */
+    height: 400px; /* Juster høyden etter behov */
+    margin-top: 120px;
+    text-align: left;
+    font-size: 30px;
+    
+
+    box-shadow: -1px 30px 20px rgb(0, 0, 0, 0.3);
+    border-radius: 1%;
+   
+    border-width: 1px;
+    border-color: #000000;
+    border-style:outset;
+}
+
+@media (max-width:1023px){
+    .rectange3{
+        opacity: 0%;
+        
+    }
+}
+
+
+.rectange3 img{
+
+    width: 250px;
+    height: 220px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+@media (max-width:1134px){
+    .test69{
+
+            opacity: 0%;
+    }
+
+}
+
+@media (max-width:1417px){
+    .test70{
+
+            opacity: 0%;
+    }
+
+}
+
+.text17 li a{
+    color: white;
+    text-decoration: none;
+    
+
+}
 
